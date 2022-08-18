@@ -19,7 +19,7 @@
       {
         overlays = {
           default = self: super: {
-            vscode-extendsions = super.vscode-extensions // self.packages."${system}";
+            vscode-extendsions = super.vscode-extensions // self.packages;
           };
         };
 
