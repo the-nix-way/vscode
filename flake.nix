@@ -1,7 +1,6 @@
 {
   description = "Visual Studio Code extensions for Nix";
   inputs = {
-    flake-utils.url = "github:numtide/flake-utils";
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
   };
 
