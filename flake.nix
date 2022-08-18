@@ -17,6 +17,12 @@
         extensions = import ./extensions.nix;
       in
       {
+        overlays = {
+          default = self: super: {
+            vscode-extendsions = super.vscode-extensions // self.packages."${system}";
+          };
+        };
+
         packages = builtins.listToAttrs (builtins.map
           (e: {
             name = "${e.publisher}";
