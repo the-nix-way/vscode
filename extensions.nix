@@ -1,9 +1,17 @@
+{ fakeHash }:
+
 [
   {
     publisher = "amatiasq";
     name = "sort-imports";
     version = "6.3.1";
     sha256 = "sha256-w02bnJH3wfZsTMwDbrlc6UdVhh+equqnF9cnkOhQciU=";
+  }
+  {
+    publisher = "appland";
+    name = "appmap";
+    version = "0.41.1";
+    sha256 = "sha256-6+gYsn01J7zN+GBcxd0NReNMa58k+mMx9R68uOPyWHY=";
   }
   {
     publisher = "BazelBuild";
@@ -14,8 +22,20 @@
   {
     publisher = "bbenoist";
     name = "nix";
-    sha256 = "sha256-qwxqOGublQeVP2qrLF94ndX/Be9oZOn+ZMCFX1yyoH0=";
     version = "1.0.1";
+    sha256 = "sha256-qwxqOGublQeVP2qrLF94ndX/Be9oZOn+ZMCFX1yyoH0=";
+  }
+  {
+    publisher = "bierner";
+    name = "markdown-shiki";
+    version = "0.1.1";
+    sha256 = "sha256-/lZYZsfIwLqjfWc4giWqGdkXuCbzA7q7d3jpbaLelvM=";
+  }
+  {
+    publisher = "Blackboxapp";
+    name = "blackbox";
+    version = "0.0.5";
+    sha256 = "sha256-Oi/CAPv6Ro/jcKIL9ZQz3dBWsXJMm0A/j9x/zdZYytM=";
   }
   {
     publisher = "bradlc";
@@ -60,23 +80,47 @@
     sha256 = "sha256-MHQrFxqSkcpQXiZQoK8e+xVgRjl3Db3n72hrQrT98lg=";
   }
   {
+    publisher = "Iterative";
+    name = "dvc";
+    version = "0.4.0";
+    sha256 = "sha256-smhEbjgyqj+aeMu5Cn9KZM7KS2ilVZL2xDmkMLd9IJw=";
+  }
+  {
     publisher = "jallen7usa";
     name = "vscode-cue-fmt";
     version = "0.1.1";
     sha256 = "sha256-juOcZgSfhM1BnyVQPleP86rbuRt0peGIr2aDh7WmNQk=";
   }
   {
+    publisher = "moalamri";
+    name = "inline-fold";
+    version = "0.1.7";
+    sha256 = "sha256-p7kvO2wc55qdUa7yQGFQvuarFdNOneUHbGrKx4HVaf0=";
+  }
+  {
+    publisher = "MoAli";
+    name = "mo-dark-theme";
+    version = "0.0.1";
+    sha256 = "sha256-7NRA9rWMoFdA3Vd8ReakyhR4x4m6vZ+tQEkcTrUZHLw=";
+  }
+  #{
+  #  publisher = "ms-azuretools";
+  #  name = "azure-dev";
+  #  version = "0.2.0";
+  #  sha256 = "sha256-OrznfNqnqP4cKdWU2+VoOXFrOOoRNa5ftV9cSbhBl30=";
+  #}
+  {
     publisher = "ms-vscode";
     name = "makefile-tools";
     version = "0.5.0";
     sha256 = "sha256-oBYABz6qdV9g7WdHycL1LrEaYG5be3e4hlo4ILhX4KI=";
   }
-  {
-    publisher = "ms-vscode";
-    name = "vscode-typescript-next";
-    version = "4.9.20220904";
-    sha256 = "sha256-Nz1uAJ2gQXDDvmu1rnyzW5U1fQFbJDpcxNfujHNEsUI=";
-  }
+  #{
+  #  publisher = "ms-vscode";
+  #  name = "vscode-typescript-next";
+  #  version = "4.9.20220904";
+  #  sha256 = "sha256-Nz1uAJ2gQXDDvmu1rnyzW5U1fQFbJDpcxNfujHNEsUI=";
+  #}
   {
     publisher = "nickgo";
     name = "cuelang";
@@ -94,6 +138,12 @@
     name = "penumbra";
     version = "0.3.0";
     sha256 = "sha256-2XbPG1o1u/P49m3V9X+KkMJgw3g8IaT0YigiKFgoM/0=";
+  }
+  {
+    publisher = "raja";
+    name = "sass-eo";
+    version = "1.1.0";
+    sha256 = "sha256-JDH32P+bfPE6joiAZFUa9uT0bkaZgGJs10CePd9cfjk=";
   }
   {
     publisher = "RapidAPI";
@@ -114,10 +164,22 @@
     sha256 = "sha256-AqfcVV9GYZ+GLgusXfij9z4WzrU9cCHp3sdZb0i6HzE=";
   }
   {
+    publisher = "sprkldev";
+    name = "sprkl-vscode";
+    version = "0.0.42";
+    sha256 = "sha256-joOrKeap/KLXfxD1m4+aO6/+YYY7TyssO1FEg9a4If8=";
+  }
+  {
     publisher = "tilt-dev";
     name = "Tiltfile";
     version = "0.0.3";
     sha256 = "sha256-KQ+jmVwHH/9iqmS6mYGxZMMmVisI2FqMMCDUi9AJCcY=";
+  }
+  {
+    publisher = "usernamehw";
+    name = "commands";
+    version = "1.4.0";
+    sha256 = "sha256-bKk7F7V03EKBuZzVpH66ID59F40Bk/DAxUhxT4EflC4=";
   }
   {
     publisher = "Vue";
@@ -130,5 +192,11 @@
     name = "material-palenight-theme";
     version = "2.0.2";
     sha256 = "sha256-//EpXe+kKloqbMIZ8kstUKdYB490tQBBilB3Z9FfBNI=";
+  }
+  {
+    publisher = "WollaceBuarque";
+    name = "tailwind-theme";
+    version = "0.5.7";
+    sha256 = "sha256-/LVo5mduWFtIuAbq3rQhHFXCrYDhoKojSXmImM9g/4U=";
   }
 ]

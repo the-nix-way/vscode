@@ -23,9 +23,16 @@
         inherit (pkgs.lib) mkMerge;
         inherit (pkgs.lib.strings) concatStrings;
 
-        extensions = import ./extensions.nix;
+        extensions = import ./extensions.nix { inherit (pkgs.lib) fakeHash; };
 
-        check = pkgs.writeScriptBin "check" (concatStrings (builtins.map (e: "nix build .#${e.publisher}.${e.name}\n") extensions));
+        check = pkgs.writeScriptBin "check" (concatStrings
+          (builtins.map
+            (e:
+              ''
+                echo "Building ${e.publisher}.${e.name}"
+                nix build .#${e.publisher}.${e.name}
+              '')
+            extensions));
       in
       {
         devShells.default = pkgs.mkShell {
