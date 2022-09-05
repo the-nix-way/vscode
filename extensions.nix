@@ -121,12 +121,12 @@
     version = "0.2.1";
     sha256 = "sha256-5dBLDJ7Wgv7p3DY0klqxtgo2/ckAHoMOm8G1mDOlzZc=";
   }
-  {
-    publisher = "HashiCorp";
-    name = "terraform";
-    version = "2.23.0";
-    sha256 = "sha256-3v2hEf/cEd7NiXfk7eJbmmdyiQJ7bWl9TuaN+y5k+e0=";
-  }
+  #{
+  #  publisher = "HashiCorp";
+  #  name = "terraform";
+  #  version = "2.23.0";
+  #  sha256 = "sha256-3v2hEf/cEd7NiXfk7eJbmmdyiQJ7bWl9TuaN+y5k+e0=";
+  #}
   {
     publisher = "golang";
     name = "Go";
