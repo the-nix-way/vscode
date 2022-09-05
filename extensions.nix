@@ -56,6 +56,12 @@
     sha256 = "sha256-ePvmHgb6Vdpq1oHcqZcfVT4c/XYZqxJ6FGVuKAbQOCg=";
   }
   {
+    publisher = "dbaeumer";
+    name = "vscode-eslint";
+    version = "2.2.6";
+    sha256 = "sha256-1yZeyLrXuubhKzobWcd00F/CdU824uJDTkB6qlHkJlQ=";
+  }
+  {
     publisher = "dzhavat";
     name = "bracket-pair-toggler";
     version = "0.0.2";
@@ -73,6 +79,24 @@
     version = "9.8.0";
     sha256 = "sha256-+8lEuQD73w+urAv2Tw0b+q6oQ66+gLgMPe3Luln9cuY=";
   }
+  {
+    publisher = "eamodio";
+    name = "gitlens";
+    version = "2022.8.3105";
+    sha256 = "sha256-3MyPCTZGD6axHvMd8yi9JWjviMdflbF7WhBIA2JXXYU=";
+  }
+  {
+    publisher = "formulahendry";
+    name = "auto-close-tag";
+    version = "0.5.14";
+    sha256 = "sha256-XYYHS2QTy8WYjtUYYWsIESzmH4dRQLlXQpJq78BolMw=";
+  }
+  #{
+  #  publisher = "formulahendry";
+  #  name = "code-runner";
+  #  version = "0.11.8";
+  #  sha256 = fakeHash;
+  #}
   {
     publisher = "Gleam";
     name = "gleam";
@@ -116,6 +140,24 @@
   #  sha256 = "sha256-OrznfNqnqP4cKdWU2+VoOXFrOOoRNa5ftV9cSbhBl30=";
   #}
   {
+    publisher = "ms-azuretools";
+    name = "vscode-docker";
+    version = "1.22.1";
+    sha256 = "sha256-okR1mmwg1ZEUfP924LTa98LxCenwDZ1BIS/FLt0wo8c=";
+  }
+  {
+    publisher = "MS-CEINTL";
+    name = "vscode-language-pack-zh-hans";
+    version = "1.71.8310936";
+    sha256 = "sha256-bYSrOuC1+++DYzMsUDcjRBnT6IyqFrymIDVz6d1M0I4=";
+  }
+  {
+    publisher = "ms-dotnettools";
+    name = "csharp";
+    version = "1.25.0";
+    sha256 = "sha256-WE4DbJr1HqoyuS3mVYmIgd9DDTuSKPd6vdZn4YOPUtU=";
+  }
+  {
     publisher = "ms-python";
     name = "python";
     version = "2022.15.12451011";
@@ -133,6 +175,12 @@
   #  version = "2022.9.1002501050";
   #  sha256 = fakeHash;
   #}
+  {
+    publisher = "ms-toolsai";
+    name = "jupyter-keymap";
+    version = "1.0.0";
+    sha256 = "sha256-aP9mRvNfJ/fXSZk286FPo9gH80qwqm8mTDQ2BR+lfHI=";
+  }
   #{
   #  publisher = "ms-vscode";
   #  name = "cpptools";
@@ -182,6 +230,12 @@
     sha256 = "sha256-jABMc5nE3eUSho83wvb41zY+vTR/cn8SBI6QDEJvUe0=";
   }
   {
+    publisher = "redhat";
+    name = "java";
+    version = "1.11.2022090104";
+    sha256 = "sha256-LIOUfm+VJ4+g6EoMX7ZA/HbmhR0+2W1925YsfgOat40=";
+  }
+  {
     publisher = "RobbOwen";
     name = "synthwave-vscode";
     version = "0.1.11";
@@ -210,6 +264,12 @@
     name = "commands";
     version = "1.4.0";
     sha256 = "sha256-bKk7F7V03EKBuZzVpH66ID59F40Bk/DAxUhxT4EflC4=";
+  }
+  {
+    publisher = "VisualStudioExptTeam";
+    name = "vscodeintellicode";
+    version = "1.2.24";
+    sha256 = "sha256-XrGkyRFPcqp3CYlTg24ssTfHfUlwKubFZs/c9vgGw54=";
   }
   {
     publisher = "Vue";
