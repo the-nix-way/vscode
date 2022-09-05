@@ -56,20 +56,17 @@
           buildInputs = [ check ];
         };
 
-        overlays.default = self: super: {
-          vscode-extensions = super.vscode-extensions // self.packages;
-        };
-
-        packages = builtins.listToAttrs (builtins.map
-          (e: {
-            name = "${e.publisher}";
-            value = {
-              "${e.name}" = pkgs.vsCodeExtensionHelper {
-                inherit (e) publisher name version sha256;
+        packages = pkgs.vscode-extensions // builtins.listToAttrs
+          (builtins.map
+            (e: {
+              name = "${e.publisher}";
+              value = {
+                "${e.name}" = pkgs.vsCodeExtensionHelper {
+                  inherit (e) publisher name version sha256;
+                };
               };
-            };
-          })
-          extensions);
+            })
+            extensions);
       }
     );
 }
