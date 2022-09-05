@@ -30,11 +30,11 @@
             (e:
               ''
                 echo "Building ${e.publisher}.${e.name}"
-                nix build .#${e.publisher}.${e.name}
+                nix build --quiet .#${e.publisher}.${e.name}
               '')
             extensions));
 
-        listExtensions = pkgs.writeScriptBin "list" (concatStrings
+        listLocalExtensions = pkgs.writeScriptBin "list" (concatStrings
           (builtins.map
             (e:
               ''
@@ -43,9 +43,13 @@
             extensions));
       in
       {
-        apps.default = {
-          type = "app";
-          program = "${listExtensions}/bin/list";
+        apps = rec {
+          default = local;
+
+          local = {
+            type = "app";
+            program = "${listLocalExtensions}/bin/list";
+          };
         };
 
         devShells.default = pkgs.mkShell {
