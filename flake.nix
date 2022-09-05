@@ -33,8 +33,21 @@
                 nix build .#${e.publisher}.${e.name}
               '')
             extensions));
+
+        listExtensions = pkgs.writeScriptBin "list" (concatStrings
+          (builtins.map
+            (e:
+              ''
+                echo "${e.publisher}.${e.name}"
+              '')
+            extensions));
       in
       {
+        apps.default = {
+          type = "app";
+          program = "${listExtensions}/bin/list";
+        };
+
         devShells.default = pkgs.mkShell {
           buildInputs = [ check ];
         };
