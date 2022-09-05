@@ -68,6 +68,12 @@
     sha256 = "sha256-j+P2oprpH0rzqI0VKt0JbZG19EDE7e7+kAb3MGGCRDk=";
   }
   {
+    publisher = "esbenp";
+    name = "prettier-vscode";
+    version = "9.8.0";
+    sha256 = "sha256-+8lEuQD73w+urAv2Tw0b+q6oQ66+gLgMPe3Luln9cuY=";
+  }
+  {
     publisher = "Gleam";
     name = "gleam";
     version = "2.0.0";
@@ -108,6 +114,30 @@
   #  name = "azure-dev";
   #  version = "0.2.0";
   #  sha256 = "sha256-OrznfNqnqP4cKdWU2+VoOXFrOOoRNa5ftV9cSbhBl30=";
+  #}
+  {
+    publisher = "ms-python";
+    name = "python";
+    version = "2022.15.12451011";
+    sha256 = "sha256-zO7L2we37bbn5i/vVhNoxUgMeY5WaPVS895wK8UbT2Q=";
+  }
+  #{
+  #  publisher = "ms-python";
+  #  name = "vscode-pylance";
+  #  version = "2022.8.51";
+  #  sha256 = fakeHash;
+  #}
+  #{
+  #  publisher = "mstools-ai";
+  #  name = "jupyter";
+  #  version = "2022.9.1002501050";
+  #  sha256 = fakeHash;
+  #}
+  #{
+  #  publisher = "ms-vscode";
+  #  name = "cpptools";
+  #  version = "1.12.4";
+  #  sha256 = fakeHash;
   #}
   {
     publisher = "ms-vscode";
