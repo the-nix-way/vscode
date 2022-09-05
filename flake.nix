@@ -20,9 +20,18 @@
           inherit overlays system;
         };
 
+        inherit (pkgs.lib) mkMerge;
+        inherit (pkgs.lib.strings) concatStrings;
+
         extensions = import ./extensions.nix;
+
+        check = pkgs.writeScriptBin "check" (concatStrings (builtins.map (e: "nix build .#${e.publisher}.${e.name}\n") extensions));
       in
       {
+        devShells.default = pkgs.mkShell {
+          buildInputs = [ check ];
+        };
+
         overlays.default = self: super: {
           vscode-extensions = super.vscode-extensions // self.packages;
         };

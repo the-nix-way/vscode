@@ -74,7 +74,7 @@
   {
     publisher = "ms-vscode";
     name = "vscode-typescript-next";
-    version = "4.8.20220805";
+    version = "4.9.20220904";
     sha256 = "sha256-Nz1uAJ2gQXDDvmu1rnyzW5U1fQFbJDpcxNfujHNEsUI=";
   }
   {
@@ -94,6 +94,12 @@
     name = "penumbra";
     version = "0.3.0";
     sha256 = "sha256-2XbPG1o1u/P49m3V9X+KkMJgw3g8IaT0YigiKFgoM/0=";
+  }
+  {
+    publisher = "RapidAPI";
+    name = "vscode-rapidapi-client";
+    version = "1.5.0";
+    sha256 = "sha256-jABMc5nE3eUSho83wvb41zY+vTR/cn8SBI6QDEJvUe0=";
   }
   {
     publisher = "RobbOwen";
@@ -117,7 +123,7 @@
     publisher = "Vue";
     name = "volar";
     version = "0.40.1";
-    sha256 = "sha256-WiRM1jbmIgjG0Ff2cmqgCK+StfxGqBM0fnniYTkB4u4=";
+    sha256 = "sha256-nHfgIuOPAUIFbtQdDrDgkSv4uwIPNnvzxFlcTqkfuKQ=";
   }
   {
     publisher = "whizkydee";
