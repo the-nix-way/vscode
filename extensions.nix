@@ -14,6 +14,12 @@
     sha256 = "sha256-6+gYsn01J7zN+GBcxd0NReNMa58k+mMx9R68uOPyWHY=";
   }
   {
+    publisher = "astro-build";
+    name = "astro-vscode";
+    version = "0.22.0";
+    sha256 = "sha256-w2fs1CSDXd9xo2d7PDnUgnXGn1hXc4159oBR67hN8qY=";
+  }
+  {
     publisher = "BazelBuild";
     name = "vscode-bazel";
     version = "0.5.0";
@@ -54,6 +60,12 @@
     name = "vscode-buf";
     version = "0.5.0";
     sha256 = "sha256-ePvmHgb6Vdpq1oHcqZcfVT4c/XYZqxJ6FGVuKAbQOCg=";
+  }
+  {
+    publisher = "csstools";
+    name = "postcss";
+    version = "1.0.9";
+    sha256 = "sha256-5pGDKme46uT1/35WkTGL3n8ecc7wUBkHVId9VpT7c2U=";
   }
   {
     publisher = "dbaeumer";
@@ -104,10 +116,28 @@
     sha256 = "sha256-P71WDMYidD1qz4EQpVOer2npRe16glRcOA/I76jkZuM=";
   }
   {
+    publisher = "HashiCorp";
+    name = "HCL";
+    version = "0.2.1";
+    sha256 = "sha256-5dBLDJ7Wgv7p3DY0klqxtgo2/ckAHoMOm8G1mDOlzZc=";
+  }
+  {
+    publisher = "HashiCorp";
+    name = "terraform";
+    version = "2.23.0";
+    sha256 = "sha256-3v2hEf/cEd7NiXfk7eJbmmdyiQJ7bWl9TuaN+y5k+e0=";
+  }
+  {
     publisher = "golang";
     name = "Go";
     version = "0.35.1";
     sha256 = "sha256-MHQrFxqSkcpQXiZQoK8e+xVgRjl3Db3n72hrQrT98lg=";
+  }
+  {
+    publisher = "Ionide";
+    name = "Ionide-fsharp";
+    version = "7.1.0";
+    sha256 = "sha256-4XzCcWJ3FDvvD0uOenhVARslqFSIl3Q6o/u13ZjAXYc=";
   }
   {
     publisher = "Iterative";
@@ -120,6 +150,18 @@
     name = "vscode-cue-fmt";
     version = "0.1.1";
     sha256 = "sha256-juOcZgSfhM1BnyVQPleP86rbuRt0peGIr2aDh7WmNQk=";
+  }
+  {
+    publisher = "jq-syntax-highlighting";
+    name = "jq-syntax-highlighting";
+    version = "0.0.2";
+    sha256 = "sha256-Bwq+aZuDmzjHw+ZnIWlL4aGz6UnqxaKm5WUko0yuIWE=";
+  }
+  {
+    publisher = "kumar-harsh";
+    name = "graphql-for-vscode";
+    version = "1.15.3";
+    sha256 = "sha256-0Al+69quQXPdFBMsSDWXjITJiux+OQSzQ7i/pgnlm/Q=";
   }
   {
     publisher = "moalamri";
@@ -206,6 +248,12 @@
     sha256 = "sha256-dAMV1SQUSuq2nze5us6/x1DGYvxzFz3021++ffQoafI=";
   }
   {
+    publisher = "normanstypczynskipublisher";
+    name = "gqlformatter";
+    version = "1.1.1";
+    sha256 = "sha256-7Bb9SS+NFJRBYg1pAWOUzbPJLqik8LB7x4JCuefixZ4=";
+  }
+  {
     publisher = "PKief";
     name = "material-icon-theme";
     version = "4.19.0";
@@ -270,6 +318,12 @@
     name = "vscodeintellicode";
     version = "1.2.24";
     sha256 = "sha256-XrGkyRFPcqp3CYlTg24ssTfHfUlwKubFZs/c9vgGw54=";
+  }
+  {
+    publisher = "vstirbu";
+    name = "vscode-mermaid-preview";
+    version = "1.6.3";
+    sha256 = "sha256-rFYXFxzqtk2fUPbpijlQBbRdtW7bkAOxthUTzAkaYBk=";
   }
   {
     publisher = "Vue";
